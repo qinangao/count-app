@@ -1,0 +1,46 @@
+body {
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  background-color: #89b6a5;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  font-size: 60px;
+  margin: 0;
+  padding-bottom: 70px;
+}
+h1 {
+  font-size: 200px;
+  color: #4c3b4d;
+}
+button {
+  display: inline-block;
+  background-color: #4c3b4d;
+  border: 0;
+  width: 80px;
+  height: 80px;
+  margin: 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  border-radius: 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #4c3b4d;
+}
+p,
+a {
+  text-decoration: none;
+  color: #4c3b4d;
+  font-size: 20px;
+}
+a:hover {
+  color: white;
+}
