@@ -44,3 +44,18 @@ a {
 a:hover {
   color: white;
 }
+@media (max-width: 500px) {
+  .hero {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  button {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+  }
+}
